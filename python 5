@@ -1,0 +1,41 @@
+#Задание №1
+print("Сколько тебе лет?\n[1] - меньше 18\n[2] - от 18 до 65\n[3] - больше 65")
+old = input("Выберете ваш вариант:")
+
+if old == "1":
+    print("Вы несовершеннолетний")
+elif old == "2":
+    print("Вы трудоспособный человек")
+else:
+    print("Вы пенсионер")
+
+#Задание№2
+prise = int(input("Стоимость покупки?: "))
+if prise < 1_000:
+    print("Скидка не предоставляется")
+elif prise < 5_000:
+    print("Скидка 5%")
+else:
+    print("Скидка 10%")
+
+#Задание№3
+#
+# print("Выберите число:")
+# one = int(input("Введите число f:"))
+# two = int(input("Введите число g:"))
+# print("Выберите действие:\n[1] - +\n[2] - -\n[3] - *\n[4] - /")
+# choice = int(input("Выберите ваш вариант:"))
+# 
+# if choice == "1":
+#     print(one + two)
+# elif choice == "2":
+#     print(one - two)
+# elif choice == "3":
+#     print(one * two)
+# elif choice == "4":
+#     print(one / two)
+# else :
+#     print("Неверная операция")
+
+#Задание№4
+

@@ -39,3 +39,20 @@ else:
 
 #Задание№4
 
+number = int(input("Введите число :"))
+if number % 2 == 0 and number % 10 == 2 or number % 2 == 0 and number % 10 == 6:
+    print(True)
+else:
+    print(False)
+
+#Задание№5
+
+# pas = ("KirillSanqa")
+# pasword = input("Введите пароль:")
+# if pasword == pas :
+#     print("Доступ разрешен")
+# else:
+#     print("Неверный пароль")
+
+Задание№6
+
